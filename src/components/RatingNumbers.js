@@ -7,7 +7,7 @@ function RatingNumbers(props) {
   };
 
   return (
-    <div className="rating">
+    <div className="ratingElements">
       {[1, 2, 3, 4, 5].map((rating) => {
         return <span onClick={() => handleRating(rating)}>{rating}</span>;
       })}

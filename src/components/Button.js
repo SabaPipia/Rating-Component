@@ -2,7 +2,7 @@ import "./Button.css";
 
 function Button(props) {
   return (
-    <button className="SubmitButton" onClick={props.onButtonClick}>
+    <button className="submitButton" onClick={props.onButtonClick}>
       SUBMIT
     </button>
   );

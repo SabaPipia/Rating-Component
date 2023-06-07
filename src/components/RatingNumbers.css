@@ -1,9 +1,9 @@
-.rating {
+.ratingElements {
   padding: 11px;
   display: flex;
   justify-content: space-between;
 }
-.rating span {
+.ratingElements span {
   cursor: pointer;
   padding: 16px 20px;
   background-color: hsl(214, 13%, 24%);
@@ -11,8 +11,8 @@
   font-weight: 600;
   border-radius: 50%;
 }
-.rating span:hover,
-.rating span:active {
+.ratingElements span:hover,
+.ratingElements span:active {
   background-color: hsl(25, 97%, 53%);
   color: #fff;
 }

@@ -1,7 +1,7 @@
 import Star from "./star";
 import RatingSeciton from "./RatingSection";
 import RatingText from "./RatingText";
-import React, { useState } from "react";
+import React from "react";
 
 function SubmitRatingPage(props) {
   return (

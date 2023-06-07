@@ -3,7 +3,7 @@ import "./Main.css";
 
 function Main(props) {
   return (
-    <div className="main-selectedPage">
+    <div className="mainSelectedPage">
       <Selected rating={props.rating} />
     </div>
   );
