@@ -1,23 +1,23 @@
 import React, { useState } from "react";
 
 import "./App.css";
-import SubmitRatingPage from "./components/SubmitRatingPage";
-import Main from "./components/ThankYouPage/Main";
+import SubmitRating from "./pages/WrapperComponent/SubmitRating";
+import ThankYou from "./pages/WrapperComponent/ThankYou";
 
 function App(props) {
   const [readyToChange, setReadyToChange] = useState(false);
   const [rating, setRating] = useState(0);
 
   const handleChange = () => {
-    console.log(rating);
+    // console.log(rating);
     setReadyToChange(true);
   };
   return (
     <div className="ratingComponents">
       {readyToChange ? (
-        <Main rating={rating} />
+        <ThankYou rating={rating} />
       ) : (
-        <SubmitRatingPage
+        <SubmitRating
           rating={rating}
           setRating={setRating}
           onButtonClick={handleChange}
