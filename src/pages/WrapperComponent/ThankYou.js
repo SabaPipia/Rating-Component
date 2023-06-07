@@ -1,11 +1,11 @@
-import Selected from "./Selected";
-import "./Main.css";
+import Selected from "../ThankYou";
 
 function Main(props) {
   return (
-    <div className="mainSelectedPage">
+    <div style={{ textAlign: "center" }} className="mainSelectedPage">
       <Selected rating={props.rating} />
     </div>
   );
 }
+
 export default Main;

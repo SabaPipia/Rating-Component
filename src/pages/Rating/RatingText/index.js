@@ -1,4 +1,4 @@
-import "./RatingText.css";
+import "./style.css";
 
 function RatingText() {
   return (

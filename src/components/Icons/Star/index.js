@@ -1,4 +1,4 @@
-import "./star.css";
+import "./style.css";
 
 function Star() {
   return (

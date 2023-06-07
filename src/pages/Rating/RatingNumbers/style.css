@@ -16,3 +16,7 @@
   background-color: hsl(25, 97%, 53%);
   color: #fff;
 }
+.ratingElements .selected {
+  background-color: #fff;
+  color: red;
+}
