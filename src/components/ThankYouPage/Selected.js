@@ -2,7 +2,7 @@ import "./Selected.css";
 
 function Selected(props) {
   return (
-    <div className="Info-selectedPage">
+    <div className="selectedPageContent">
       <svg width="162" height="108" xmlns="http://www.w3.org/2000/svg">
         <g fill="none">
           <path

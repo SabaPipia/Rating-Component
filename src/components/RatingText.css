@@ -1,8 +1,8 @@
-.rating-Main h1 {
+.ratingMainText h1 {
   font-weight: 400;
   margin-bottom: 11px;
 }
-.rating-Main p {
+.ratingMainText p {
   color: #b9b9b9;
   padding-bottom: 15px;
 }

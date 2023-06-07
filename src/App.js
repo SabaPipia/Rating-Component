@@ -13,7 +13,7 @@ function App(props) {
     setReadyToChange(true);
   };
   return (
-    <div className="rating-component">
+    <div className="ratingComponents">
       {readyToChange ? (
         <Main rating={rating} />
       ) : (

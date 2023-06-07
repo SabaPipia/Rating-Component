@@ -1,9 +1,9 @@
-.Info-selectedPage {
+.selectedPageContent {
   justify-items: center;
   display: grid;
   gap: 20px;
 }
-.Info-selectedPage h3 {
+.selectedPageContent h3 {
   padding: 8px 18px;
   background-color: hsl(214, 13%, 24%);
   color: hsl(25, 97%, 53%);
@@ -11,10 +11,10 @@
   font-weight: 100;
   border-radius: 22px;
 }
-.Info-selectedPage h1 {
+.selectedPageContent h1 {
   font-weight: 500;
 }
-.Info-selectedPage p {
+.selectedPageContent p {
   font-weight: 300;
   color: #adadad;
 }
