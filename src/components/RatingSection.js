@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import RatingNumbers from "./RatingNumbers";
 import Button from "./Button";
 
