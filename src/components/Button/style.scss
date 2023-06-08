@@ -19,3 +19,8 @@
     background-color: $neutral-white;
   }
 }
+.unavailable {
+  pointer-events: none;
+  background-color: $neutral-mediumGrey;
+  color: $neutral-darkBlue;
+}

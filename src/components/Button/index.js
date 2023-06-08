@@ -2,7 +2,10 @@ import "./style.scss";
 
 function Button(props) {
   return (
-    <button className="submitButton" onClick={props.onButtonClick}>
+    <button
+      className={`submitButton ${props.rating === 0 ? "unavailable" : ""}`}
+      onClick={props.onButtonClick}
+    >
       SUBMIT
     </button>
   );
