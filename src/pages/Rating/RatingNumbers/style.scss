@@ -1,0 +1,25 @@
+@import "../../../SassVariables/variables";
+
+.ratingElements {
+  padding: 11px;
+  display: flex;
+  justify-content: space-between;
+
+  span {
+    cursor: pointer;
+    padding: 16px 20px;
+    background-color: $neutral-lighterDBlue;
+    color: $neutral-lightGrey;
+    font-weight: $weight-bold;
+    border-radius: 50%;
+    &:hover,
+    &:active {
+      background-color: $primary-color;
+      color: $neutral-white;
+    }
+  }
+  .selected {
+    background-color: $neutral-white;
+    color: $primary-color;
+  }
+}

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./style.css";
+import "./style.scss";
 
 function RatingNumbers(props) {
   const [selected, setSelected] = useState(0);

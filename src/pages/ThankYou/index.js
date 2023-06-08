@@ -1,5 +1,5 @@
 import ThankYou from "../../components/Icons/ThankYou";
-import "./style.css";
+import "./style.scss";
 
 function Selected(props) {
   return (

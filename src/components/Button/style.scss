@@ -1,0 +1,21 @@
+@import "../../SassVariables/variables.scss";
+
+.submitButton {
+  cursor: pointer;
+  width: 100%;
+  height: 44px;
+  border: none;
+  border-radius: 15px;
+  background-color: $primary-color;
+  color: $neutral-white;
+  font-size: 16px;
+  font-weight: $weight-bold;
+  letter-spacing: 2px;
+  margin-top: 9px;
+
+  &:hover,
+  &:active {
+    color: $primary-color;
+    background-color: $neutral-white;
+  }
+}
