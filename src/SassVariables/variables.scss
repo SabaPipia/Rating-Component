@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
+// Colors
+// -----Primary------
+$primary-color: hsl(25, 97%, 53%);
+
+// ------Neutral-----
+$neutral-white: #fff;
+$neutral-lightGrey: hsl(217, 12%, 63%);
+$neutral-mediumGrey: hsl(216, 12%, 54%);
+$neutral-darkBlue: hsl(213, 19%, 18%);
+$neutral-lighterDBlue: hsl(214, 13%, 24%);
+$neutral-vDarkBlue: hsl(216, 12%, 8%);
+
+// Typography
+//font-family
+$family: "Rubik", sans-serif;
+//font-weight
+$weight-normal: 400;
+$weight-bold: 700;
+//font-size
+$paragraph-font: 15px;

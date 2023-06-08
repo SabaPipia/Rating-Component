@@ -1,0 +1,9 @@
+@import "../../../SassVariables/variables.scss";
+
+.iconStar {
+  display: inline-block;
+  padding: 9px 11px;
+  background-color: $neutral-lighterDBlue;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}

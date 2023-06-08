@@ -1,0 +1,13 @@
+@import "../../../SassVariables/variables.scss";
+
+.ratingMainText {
+  h1 {
+    font-weight: $weight-normal;
+    margin-bottom: 11px;
+  }
+  p {
+    color: $neutral-lightGrey;
+    padding-bottom: 15px;
+    font-size: $paragraph-font;
+  }
+}

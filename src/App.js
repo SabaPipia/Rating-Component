@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import "./App.css";
+import "./App.scss";
 import SubmitRating from "./pages/WrapperComponent/SubmitRating";
 import ThankYou from "./pages/WrapperComponent/ThankYou";
 

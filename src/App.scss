@@ -1,0 +1,11 @@
+@import "./SassVariables/variables.scss";
+
+.ratingComponents {
+  width: 375px;
+  background-color: $neutral-darkBlue;
+  color: $neutral-white;
+  margin: 120px auto;
+  border-radius: 30px;
+  padding: 24px;
+  font-family: $family;
+}

@@ -1,3 +1,4 @@
+@import "./SassVariables/variables.scss";
 * {
   padding: 0;
   margin: 0;
@@ -9,7 +10,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: hsl(216, 12%, 8%);
+  background-color: $neutral-vDarkBlue;
 }
 
 code {

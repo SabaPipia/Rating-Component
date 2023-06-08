@@ -1,0 +1,23 @@
+@import "../../SassVariables/variables.scss";
+
+.selectedPageContent {
+  justify-items: center;
+  display: grid;
+  gap: 20px;
+  h3 {
+    padding: 8px 18px;
+    background-color: $neutral-darkBlue;
+    color: $primary-color;
+    font-size: 15px;
+    font-weight: $weight-normal;
+    border-radius: 22px;
+  }
+  h1 {
+    font-weight: $weight-normal;
+  }
+  p {
+    font-weight: $weight-normal;
+    color: $neutral-lightGrey;
+    font-size: $paragraph-font;
+  }
+}
